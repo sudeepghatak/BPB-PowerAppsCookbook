@@ -21,7 +21,7 @@ Whether you're a beginner or an experienced maker, this book offers something fo
 ## 📂 Repository Structure
 
 Each folder in this repository contains:
-- `.msapp` files for Canvas Apps
+- `.zip` files for Canvas Apps
 - Solution `.zip` files for Model-Driven Apps or Power Pages
 - Any supporting resources (e.g., Excel data, JSON, icons)
 
