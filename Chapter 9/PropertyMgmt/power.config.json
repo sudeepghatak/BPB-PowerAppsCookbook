@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "appId": "81e1d536-5122-4882-8dde-cbea9aa0fc88",
+  "appDisplayName": "Property Management Code App",
+  "region": "prod",
+  "environmentId": "a9f8deea-112a-e309-bb4a-4456892805c4",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {
+    "9bf8366e-367b-4b2a-ba88-4fca8570995e": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_office365",
+      "displayName": "Office 365 Outlook",
+      "dataSources": [
+        "office365"
+      ],
+      "dataSets": {}
+    },
+    "7081c6e0-3115-415d-804e-e3009fa969ca": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_logicflows",
+      "displayName": "Logic flows",
+      "dataSources": [
+        "pm_notify"
+      ]
+    }
+  },
+  "databaseReferences": {}
+}
